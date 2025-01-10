@@ -1,18 +1,5 @@
-## Getting Started
+## Formula 1 - Pilotos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Consumindo da API openf1.org, utilizando do meu projeto inicial utilizando apenas switch-case e manualmente inserindo o nome e equipe dos pilotos, esse projeto (ainda como prototipo, pois minha ideia é fazer um programa que tenha todas as informações sobre os pilotos de todo o tempo e não apenas os atuais.) funciona da seguinte forma:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- O usuário insere o nome do seu piloto favorito e o programa irá retornar: seu nome completo, sua equipe atual e como seu nome é exibido na corrida (acronimo).
